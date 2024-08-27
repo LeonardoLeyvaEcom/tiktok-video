@@ -1,0 +1,28 @@
+Colocar videos de tiktok en la pagina de inicio como testimonios
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de iFrames</title>
+    <style>
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Espacio entre los iframes */
+            flex-wrap: wrap; /* Para que los iframes se ajusten en caso de que no quepan en una sola línea */
+        }
+        iframe {
+            border: none; /* Para eliminar el borde del iframe */
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <iframe src="https://www.tiktok.com/embed/INGRESA ID" width="325" height="750" allowfullscreen></iframe>
+        <iframe src="https://www.tiktok.com/embedINGRESA ID" width="325" height="750" allowfullscreen></iframe>
+        <iframe src="https://www.tiktok.com/embed/INGRESA ID" width="325" height="750" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
